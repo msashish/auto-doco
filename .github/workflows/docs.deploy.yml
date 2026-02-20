@@ -23,6 +23,6 @@ jobs:
 
       - run: poetry config virtualenvs.create false
 
-      - run: poetry install --only docs
+      - run: poetry install
 
       - run: poetry run mkdocs gh-deploy --force
