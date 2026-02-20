@@ -18,3 +18,14 @@
 3. Initialise mkdocs
 
     mkdocs new .
+
+4. Serve locally
+    mkdocs serve
+
+## Deploy pages
+
+1. Github pages is setup to serve from gh-pages root 
+
+2. GHA is setup and docs.deploy.yml pipeline runs on every push to main branch
+
+3. View at https://msashish.github.io/auto-doco/
