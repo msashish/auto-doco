@@ -1,0 +1,18 @@
+[project]
+name = "auto-doco"
+version = "0.1.0"
+description = "Content aggregator with Static site generator"
+authors = [
+    {name = "pluckyashish@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mkdocs (>=1.6.1,<2.0.0)",
+    "mkdocs-material (>=9.7.2,<10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

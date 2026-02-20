@@ -1,0 +1,11 @@
+site_name: Engineering Bytes
+site_description: Internal knowledge base
+site_author: Ash
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Subnet: subnet.md
+
