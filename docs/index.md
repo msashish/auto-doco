@@ -1,13 +1,6 @@
 # Engineering Documentation Portal
 
-This is an aggregated portal for all of my public engineering repositories.
-
-This site is auto-generated & provides:
-- Repository overview
-- Metadata (language, last updated, visibility)
-- Description
-- Links to source code
-- Additional documentation (if available)
+This is an auto-generated aggregated portal for all of my public engineering repositories.
 
 ---
 
@@ -27,9 +20,7 @@ This site is auto-generated & provides:
 
 ---
 
-## How This Site Is Built
-
-This portal is generated using:
+## This Site Is Built using
 
 - MkDocs
 - Material for MkDocs
@@ -37,15 +28,6 @@ This portal is generated using:
 - GitHub Pages
 
 The content is refreshed automatically via CI.
-
----
-
-## Contributing
-
-To update repository metadata:
-1. Update repository description in GitHub
-2. Ensure README is maintained
-3. CI pipeline will regenerate documentation
 
 ---
 

@@ -32,8 +32,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Engineering:
-      - Repositories: repos.md
-      - Subnet: subnet.md
-  - Help:
-      - mkdocs: mkdocs.md
+  - Repositories: repos.md
+  - Subnet: subnet.md
+  - Help: mkdocs.md
