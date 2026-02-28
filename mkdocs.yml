@@ -12,7 +12,6 @@ theme:
     accent: blue
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.top
     - search.highlight
     - search.share
@@ -33,7 +32,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Repositories: repos.md
-  - Subnet: subnet.md
-  - Helpme: mkdocs.md
-
+  - Engineering:
+      - Repositories: repos.md
+      - Subnet: subnet.md
+  - Help:
+      - mkdocs: mkdocs.md
