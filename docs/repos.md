@@ -1,5 +1,9 @@
 # Organization Repositories
 
+    Aggregated catalog of content across all public repositories in my org
+
+## List of repository summary
+
 - [adventofcode](repos/adventofcode.md)
 - [app-designs](repos/app-designs.md)
 - [auto-doco](repos/auto-doco.md)

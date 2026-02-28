@@ -2,6 +2,7 @@ site_name: Ash Engineering Bytes
 site_description: Auto-aggregated readme contents
 site_author: msashish
 site_url: https://msashish.github.io/auto-doco/
+use_directory_urls: true
 
 theme:
   name: material
@@ -12,6 +13,7 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
+    - content.tabs.link
 
 plugins:
   - search
@@ -27,5 +29,6 @@ markdown_extensions:
 
 nav:
   - Home: repos.md
-  - Repositories: repos.md
+  - Subnet: subnet.md
+  - Helpme: mkdocs.md
 
