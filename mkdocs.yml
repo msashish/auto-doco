@@ -6,6 +6,10 @@ use_directory_urls: true
 
 theme:
   name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: blue
   features:
     - navigation.tabs
     - navigation.sections
@@ -28,7 +32,8 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  - Home: repos.md
+  - Home: index.md
+  - Repositories: repos.md
   - Subnet: subnet.md
   - Helpme: mkdocs.md
 
