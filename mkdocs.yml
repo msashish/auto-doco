@@ -1,11 +1,31 @@
-site_name: Engineering Bytes
-site_description: Internal knowledge base
-site_author: Ash
+site_name: Ash Engineering Bytes
+site_description: Auto-aggregated readme contents
+site_author: msashish
+site_url: https://msashish.github.io/auto-doco/
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
 
 nav:
-  - Home: index.md
-  - Subnet: subnet.md
+  - Home: repos.md
+  - Repositories: repos.md
 
